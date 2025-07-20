@@ -1,0 +1,125 @@
+.m-wrapper {
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.m-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.m-info {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.m-info h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.contact-info {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-bottom: 1rem;
+    color: #2d3748;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    color: #e65100;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.m-map {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.m-iframe {
+    border: 8px solid rgb(232 232 232 / 93%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .m-container {
+        flex-direction: column;
+    }
+    
+    .m-info {
+        max-width: 100%;
+        order: 2;
+    }
+    
+    .m-map {
+        order: 1;
+    }
+    
+    .m-iframe {
+        width: 100% !important;
+        max-width: 400px;
+        height: 300px !important;
+    }
+}
+
+/* Alerta de Pagamento */
+.payment-alert {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    border: 2px solid #ff9800;
+    border-left: 6px solid #e65100;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.2);
+    animation: gentle-pulse 3s infinite;
+}
+
+.alert-icon {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.alert-content {
+    flex: 1;
+}
+
+.alert-content strong {
+    color: #e65100 !important;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem !important;
+}
+
+.alert-content span {
+    color: #bf360c;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+@keyframes gentle-pulse {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.2);
+    }
+    50% {
+        box-shadow: 0 6px 20px rgba(255, 152, 0, 0.3);
+    }
+}

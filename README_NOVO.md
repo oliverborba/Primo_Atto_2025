@@ -175,7 +175,3 @@ Para suporte técnico ou novos projetos:
 ---
 
 **🚀 Site desenvolvido com foco em conversão, SEO e performance para maximizar o alcance da Primo Atto no mercado digital.**
-
----
-
-*📝 Este README foi elaborado pelo **GitHub Copilot** para documentar de forma completa e profissional o projeto Primo Atto.*
