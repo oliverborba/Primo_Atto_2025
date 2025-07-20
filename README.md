@@ -18,7 +18,7 @@ Atendimento particular focado em crianças e pessoas dentro do espectro autista,
 Copacabana, Rio de Janeiro - RJ, 22051-002
 
 **🕐 Horários:** Segunda a Sexta, 8:00 - 18:00  
-**📱 WhatsApp:** (21) 99402-1137  
+**📱 WhatsApp:** (21) 9XXXX-XXXX  
 **📧 Email:** contato@primoatto.com.br
 
 ---
@@ -131,7 +131,7 @@ npm run preview
 1. Execute `npm run build`
 2. Faça upload da pasta `dist/` para o public_html
 3. Configure o arquivo `.htaccess` (incluído)
-4. Aponte o domínio para www.primoatto.com.br
+4. Configure seu domínio personalizado
 
 ### Outras Plataformas
 - **Netlify/Vercel:** Arquivo `_redirects` incluído
@@ -169,8 +169,8 @@ Desenvolvimento: Lucas Borba
 
 Para suporte técnico ou novos projetos:  
 **Lucas Borba** - Desenvolvedor Frontend  
-📧 [contato@lucasborba.dev](mailto:contato@lucasborba.dev)  
-🌐 [Portfolio](https://lucasborba.dev)
+📧 [Entre em contato via LinkedIn](https://www.linkedin.com/in/lucas-oliveira-de-borba/)  
+🌐 [GitHub Profile](https://github.com/lucasborba)
 
 ---
 
